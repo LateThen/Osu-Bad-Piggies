@@ -1,2 +1,2 @@
 # Osu-Bad-Piggies
-[Spustit](https://latethen.github.io/Sazka-simulator-Free-Win-Edition/)
+[Spustit](https://latethen.github.io/Osu-Bad-Piggies/)
