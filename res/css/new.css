@@ -1,0 +1,2160 @@
+body {
+  background-color: black;
+}
+
+#start {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 70px;
+  font-size: 34px;
+  cursor: pointer;
+  text-align: center;}
+  #gameend {
+  cursor: none;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 100px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  display: none;
+}
+#start:hover {
+  background-color: blueviolet;
+  color: yellow;
+  transition: 500ms;;
+}
+#banner {
+  position: relative;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner > #imageone {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+#banner > .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+}
+#bannertwo {
+  position: relative;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: none;
+}
+#bannertwo > #imagetwo {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+#bannertwo > .contenttwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+}
+#go,
+#note1,
+#note2,
+#note3,
+#note4,
+#note5,
+#note6,
+#note7,
+#note8,
+#note9,
+#note10,
+#note11,
+#note12,
+#note13,
+#note14,
+#note15,
+#note16,
+#note16,
+#note17,
+#note18,
+#note19,
+#note20,
+#note21,
+#note22,
+#note23,
+#note24,
+#note25,
+#note26,
+#note27,
+#note28,
+#note29,
+#note30,
+#note31,
+#note32,
+#note33,
+#note34,
+#note35,
+#note36,
+#note37,
+#note38,
+#note39,
+#note40,
+#note41,
+#note42,
+#note43,
+#note44,
+#note45,
+#note46,
+#note47,
+#note48,
+#note49,
+#note50,
+#note51,
+#note52,
+#note53,
+#note54,
+#note55,
+#note56,
+#note57,
+#note58,
+#note59,
+#note60,
+#note61,
+#note62,
+#note63,
+#note64,
+#note65,
+#note66,
+#note67,
+#note68,
+#note69,
+#note70,
+#note71,
+#note72,
+#note73,
+#note74,
+#note75,
+#note76,
+#note77,
+#note78,
+#note79,
+#note80,
+#note81,
+#note82,
+#note83,
+#note84,
+#note85,
+#note86,
+#note87,
+#note88,
+#note89,
+#note90,
+#note91,
+#note92,
+#note93,
+#note94,
+#note95,
+#note96,
+#note97,
+#note98,
+#note99,
+#note100,
+#note101,
+#note102,
+#note103,
+#note104,
+#note105,
+#note106,
+#note107,
+#note108,
+#note109,
+#note110,
+#note111,
+#note112,
+#note113,
+#note114,
+#note115,
+#note116,
+#note117,
+#note118,
+#note119,
+#note120,
+#note121,
+#note122,
+#note123,
+#note124,
+#note125,
+#note126,
+#note127,
+#note128,
+#note129,
+#note130,
+#note131,
+#note132,
+#note133,
+#note134,
+#note135,
+#note136,
+#note137,
+#note138,
+#note139,
+#note140,
+#note141,
+#note142,
+#note143,
+#note144,
+#note145,
+#note146,
+#note147,
+#note148,
+#note149,
+#note150,
+#note151,
+#note152,
+#note153,
+#note154,
+#note155,
+#note156,
+#note157,
+#note158,
+#note159,
+#note160,
+#note161,
+#note162,
+#note163,
+#note164,
+#note165,
+#note166,
+#note167,
+#note168,
+#note169,
+#note170,
+#note171,
+#note172,
+#note173,
+#note174,
+#note175,
+#note176,
+#note177,
+#note178,
+#note179,
+#note180,
+#note181,
+#note182,
+#note183,
+#note184,
+#note185,
+#note186,
+#note187,
+#note188,
+#note189,
+#note190,
+#note191,
+#note192,
+#note193,
+#note194,
+#note195,
+#note196,
+#note197,
+#note198,
+#note199,
+#note200,
+#note201,
+#note202,
+#note203,
+#note204,
+#note205,
+#note206,
+#note207,
+#note208,
+#note209,
+#note210,
+#note211,
+#note212,
+#note213,
+#note214,
+#note215,
+#note216,
+#note217,
+#note218,
+#note219,
+#note220,
+#note221,
+#note222,
+#note223,
+#note224,
+#note225,
+#note226,
+#note227,
+#note228,
+#note229,
+#note230,
+#note231,
+#note232,
+#note233,
+#note234,
+#note235,
+#note236,
+#note237,
+#note238,
+#note239,
+#note240,
+#note241
+{
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+  display: none;
+}
+#note2ghost,
+#note3ghost,
+#note4ghost,
+#note5ghost,
+#note6ghost,
+#note7ghost,
+#note8ghost,
+#note9ghost,
+#note10ghost,
+#note11ghost,
+#note12ghost,
+#note13ghost,
+#note14ghost,
+#note15ghost,
+#note16ghost,
+#note17ghost,
+#note18ghost,
+#note19ghost,
+#note20ghost,
+#note21ghost,
+#note22ghost,
+#note23ghost,
+#note24ghost,
+#note25ghost,
+#note26ghost,
+#note27ghost,
+#note28ghost,
+#note29ghost,
+#note30ghost,
+#note31ghost,
+#note32ghost,
+#note33ghost,
+#note34ghost,
+#note35ghost,
+#note36ghost,
+#note37ghost,
+#note38ghost,
+#note39ghost,
+#note40ghost,
+#note41ghost,
+#note42ghost,
+#note43ghost,
+#note44ghost,
+#note45ghost,
+#note46ghost,
+#note47ghost,
+#note48ghost,
+#note49ghost,
+#note50ghost,
+#note51ghost,
+#note52ghost,
+#note53ghost,
+#note54ghost,
+#note55ghost,
+#note56ghost,
+#note57ghost,
+#note58ghost,
+#note59ghost,
+#note60ghost,
+#note61ghost,
+#note62ghost,
+#note63ghost,
+#note64ghost,
+#note65ghost,
+#note66ghost,
+#note67ghost,
+#note68ghost,
+#note69ghost,
+#note70ghost,
+#note71ghost,
+#note72ghost,
+#note73ghost,
+#note74ghost,
+#note75ghost,
+#note76ghost,
+#note77ghost,
+#note78ghost,
+#note79ghost,
+#note80ghost,
+#note81ghost,
+#note82ghost,
+#note83ghost,
+#note84ghost,
+#note85ghost,
+#note86ghost,
+#note87ghost,
+#note88ghost,
+#note89ghost,
+#note90ghost,
+#note91ghost,
+#note92ghost,
+#note93ghost,
+#note94ghost,
+#note95ghost,
+#note96ghost,
+#note97ghost,
+#note98ghost,
+#note99ghost,
+#note100ghost,
+#note101ghost,
+#note102ghost,
+#note103ghost,
+#note104ghost,
+#note105ghost,
+#note106ghost,
+#note107ghost,
+#note108ghost,
+#note109ghost,
+#note110ghost,
+#note111ghost,
+#note112ghost,
+#note113ghost,
+#note114ghost,
+#note115ghost,
+#note116ghost,
+#note117ghost,
+#note118ghost,
+#note119ghost,
+#note120ghost,
+#note121ghost,
+#note122ghost,
+#note123ghost,
+#note124ghost,
+#note125ghost,
+#note126ghost,
+#note127ghost,
+#note128ghost,
+#note129ghost,
+#note130ghost,
+#note131ghost,
+#note132ghost,
+#note133ghost,
+#note134ghost,
+#note135ghost,
+#note136ghost,
+#note137ghost,
+#note138ghost,
+#note139ghost,
+#note140ghost,
+#note141ghost,
+#note142ghost,
+#note143ghost,
+#note144ghost,
+#note145ghost,
+#note146ghost,
+#note147ghost,
+#note148ghost,
+#note149ghost,
+#note150ghost,
+#note151ghost,
+#note152ghost,
+#note153ghost,
+#note154ghost,
+#note155ghost,
+#note156ghost,
+#note157ghost,
+#note158ghost,
+#note159ghost,
+#note160ghost,
+#note161ghost,
+#note162ghost,
+#note163ghost,
+#note164ghost,
+#note165ghost,
+#note166ghost,
+#note167ghost,
+#note168ghost,
+#note169ghost,
+#note170ghost,
+#note171ghost,
+#note172ghost,
+#note173ghost,
+#note174ghost,
+#note175ghost,
+#note176ghost,
+#note177ghost,
+#note178ghost,
+#note179ghost,
+#note180ghost,
+#note181ghost,
+#note182ghost,
+#note183ghost,
+#note184ghost,
+#note185ghost,
+#note186ghost,
+#note187ghost,
+#note188ghost,
+#note189ghost,
+#note190ghost,
+#note191ghost,
+#note192ghost,
+#note193ghost,
+#note194ghost,
+#note195ghost,
+#note196ghost,
+#note197ghost,
+#note198ghost,
+#note199ghost,
+#note200ghost,
+#note201ghost,
+#note202ghost,
+#note203ghost,
+#note204ghost,
+#note205ghost,
+#note206ghost,
+#note207ghost,
+#note208ghost,
+#note209ghost,
+#note210ghost,
+#note211ghost,
+#note212ghost,
+#note213ghost,
+#note214ghost,
+#note215ghost,
+#note216ghost,
+#note217ghost,
+#note218ghost,
+#note219ghost,
+#note220ghost,
+#note221ghost,
+#note222ghost,
+#note223ghost,
+#note224ghost,
+#note225ghost,
+#note226ghost,
+#note227ghost,
+#note228ghost,
+#note229ghost,
+#note230ghost,
+#note231ghost,
+#note232ghost,
+#note233ghost,
+#note234ghost,
+#note235ghost,
+#note236ghost,
+#note237ghost,
+#note238ghost,
+#note239ghost
+/*
+#note240ghost,
+#note241ghost,
+#note242ghost,
+#note243ghost,
+#note244ghost,
+#note245ghost,
+#note246ghost,
+#note247ghost,
+#note248ghost,
+#note249ghost,
+#note250ghost,
+#note251ghost,
+#note252ghost,
+#note253ghost,
+#note254ghost,
+#note255ghost,
+#note256ghost,
+#note257ghost,
+#note258ghost,
+#note259ghost,
+#note260ghost,
+#note261ghost,
+#note262ghost,
+#note263ghost,
+#note264ghost,
+#note265ghost,
+#note266ghost,
+#note267ghost,
+#note268ghost,
+#note269ghost,
+#note270ghost,
+#note271ghost,
+#note272ghost,
+#note273ghost,
+#note274ghost,
+#note275ghost,
+#note276ghost,
+#note277ghost,
+#note278ghost,
+#note279ghost,
+#note280ghost,
+#note281ghost,
+#note282ghost,
+#note283ghost,
+#note284ghost,
+#note285ghost,
+#note286ghost,
+#note287ghost,
+#note288ghost,
+#note289ghost,
+#note290ghost,
+#note291ghost,
+#note292ghost,
+#note293ghost,
+#note294ghost,
+#note295ghost,
+#note296ghost,
+#note297ghost,
+#note298ghost,
+#note299ghost,
+#note300ghost,
+#note301ghost,
+#note302ghost,
+#note303ghost,
+#note304ghost,
+#note305ghost,
+#note306ghost,
+#note307ghost,
+#note308ghost,
+#note309ghost,
+#note310ghost,
+#note311ghost,
+#note312ghost,
+#note313ghost,
+#note314ghost,
+#note315ghost,
+#note316ghost,
+#note317ghost,
+#note318ghost,
+#note319ghost,
+#note320ghost,
+#note321ghost,
+#note322ghost,
+#note323ghost,
+#note324ghost,
+#note325ghost,
+#note326ghost,
+#note327ghost,
+#note328ghost,
+#note329ghost,
+#note330ghost,
+#note331ghost,
+#note332ghost,
+#note333ghost,
+#note334ghost,
+#note335ghost,
+#note336ghost,
+#note337ghost,
+#note338ghost,
+#note339ghost,
+#note340ghost,
+#note341ghost,
+#note342ghost,
+#note343ghost,
+#note344ghost,
+#note345ghost,
+#note346ghost,
+#note347ghost,
+#note348ghost,
+#note349ghost,
+#note350ghost,
+#note351ghost,
+#note352ghost,
+#note353ghost,
+#note354ghost,
+#note355ghost,
+#note356ghost,
+#note357ghost,
+#note358ghost,
+#note359ghost,
+#note360ghost,
+#note361ghost,
+#note362ghost,
+#note363ghost,
+#note364ghost,
+#note365ghost,
+#note366ghost,
+#note367ghost,
+#note368ghost,
+#note369ghost,
+#note370ghost,
+#note371ghost,
+#note372ghost,
+#note373ghost,
+#note374ghost,
+#note375ghost,
+#note376ghost,
+#note377ghost,
+#note378ghost,
+#note379ghost,
+#note380ghost,
+#note381ghost,
+#note382ghost,
+#note383ghost,
+#note384ghost,
+#note385ghost,
+#note386ghost,
+#note387ghost,
+#note388ghost,
+#note389ghost,
+#note390ghost,
+#note391ghost,
+#note392ghost,
+#note393ghost,
+#note394ghost,
+#note395ghost,
+#note396ghost,
+#note397ghost,
+#note398ghost,
+#note399ghost,
+#note400ghost,
+#note401ghost,
+#note402ghost,
+#note403ghost,
+#note404ghost,
+#note405ghost,
+#note406ghost,
+#note407ghost,
+#note408ghost,
+#note409ghost,
+#note410ghost,
+#note411ghost,
+#note412ghost,
+#note413ghost,
+#note414ghost,
+#note415ghost,
+#note416ghost,
+#note417ghost,
+#note418ghost,
+#note419ghost,
+#note420ghost,
+#note421ghost,
+#note422ghost,
+#note423ghost,
+#note424ghost,
+#note425ghost,
+#note426ghost,
+#note427ghost,
+#note428ghost,
+#note429ghost,
+#note430ghost,
+#note431ghost,
+#note432ghost,
+#note433ghost,
+#note434ghost,
+#note435ghost,
+#note436ghost,
+#note437ghost,
+#note438ghost,
+#note439ghost,
+#note440ghost,
+#note441ghost,
+#note442ghost,
+#note443ghost,
+#note444ghost,
+#note445ghost,
+#note446ghost,
+#note447ghost,
+#note448ghost,
+#note449ghost,
+#note450ghost,
+#note451ghost,
+#note452ghost,
+#note453ghost,
+#note454ghost,
+#note455ghost,
+#note456ghost,
+#note457ghost,
+#note458ghost,
+#note459ghost,
+#note460ghost,
+#note461ghost,
+#note462ghost,
+#note463ghost,
+#note464ghost,
+#note465ghost,
+#note466ghost,
+#note467ghost,
+#note468ghost,
+#note469ghost,
+#note470ghost,
+#note471ghost,
+#note472ghost,
+#note473ghost,
+#note474ghost,
+#note475ghost,
+#note476ghost,
+#note477ghost,
+#note478ghost,
+#note479ghost,
+#note480ghost,
+#note481ghost*/ {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+  display: none;
+  background-color: rgb(77, 0, 128);
+}
+#note1ghost {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: black;
+  display: none;
+  background-color: white;
+}
+#go{
+  font-style: oblique;
+  background-color: green;
+}
+
+#go,
+#note1,
+#note1ghost {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+#note2,
+#note2ghost {
+  position: absolute;
+  left: 575px;
+  top: 300px;
+}
+#note3,
+#note3ghost {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+}
+#note4,
+#note4ghost {
+  position: absolute;
+  left: 725px;
+  top: 300px;
+}
+#note5,
+#note5ghost {
+  position: absolute;
+  left: 800px;
+  top: 300px;
+}
+#note6,
+#note6ghost {
+  position: absolute;
+  left: 875px;
+  top: 300px;
+}
+#note7,
+#note7ghost {
+  position: absolute;
+  left: 950px;
+  top: 300px;
+}
+#note8,
+#note8ghost {
+  position: absolute;
+  left: 1025px;
+  top: 300px;
+}
+#note9,
+#note9ghost {
+  position: absolute;
+  left: 1100px;
+  top: 300px;
+}
+#note10,
+#note10ghost {
+  position: absolute;
+  left: 1100px;
+  top: 300px;
+}
+#note11,
+#note11ghost {
+  position: absolute;
+  left: 1150px;
+  top: 400px;
+}
+#note12,
+#note12ghost {
+  position: absolute;
+  left: 1150px;
+  top: 500px;
+}
+#note13,
+#note13ghost {
+  position: absolute;
+  left: 1250px;
+  top: 500px;
+}
+#note14,
+#note14ghost {
+  position: absolute;
+  left: 1250px;
+  top: 600px;
+}
+#note15,
+#note15ghost {
+  position: absolute;
+  left: 1400px;
+  top: 600px;
+}
+#note16,
+#note16ghost {
+  position: absolute;
+  left: 1300px;
+  top: 650px;
+}
+#note17,#note17ghost
+{
+  position: absolute;
+  left: 1500px;
+  top: 650px;
+}
+#note18,#note18ghost
+{
+  position: absolute;
+  left: 1400px;
+  top: 800px;
+}
+#note19,#note19ghost
+{
+  position: absolute;
+  left: 1300px;
+  top: 800px;
+}#note20,#note20ghost
+{
+  position: absolute;
+  left: 1200px;
+  top: 800px;
+}#note21,#note21ghost
+{
+  position: absolute;
+  left: 1100px;
+  top: 800px;
+}#note22,#note22ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 700px;
+}#note23,#note23ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 650px;
+}#note24,#note24ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 600px;
+}#note25,#note25ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 650px;
+}#note26,#note26ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 600px;
+}
+#note27,#note27ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 650px;
+}
+#note28,#note28ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 650px;
+}#note29,#note29ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 700px;
+}#note30,#note30ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 650px;
+}
+#note31,#note31ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 550px;
+}#note32,#note32ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 450px;
+}#note33,#note33ghost
+{
+  position: absolute;
+  left: 325px;
+  top: 350px;
+}#note34,#note34ghost
+{
+  position: absolute;
+  left: 425px;
+  top: 350px;
+}#note35,#note35ghost
+{
+  position: absolute;
+  left: 525px;
+  top: 350px;
+}#note36,#note36ghost
+{
+  position: absolute;
+  left: 625px;
+  top: 350px;
+}#note37,#note37ghost
+{
+  position: absolute;
+  left: 725px;
+  top: 350px;
+}#note38,#note38ghost
+{
+  position: absolute;
+  left: 825px;
+  top: 350px;
+}#note38,#note38ghost
+{
+  position: absolute;
+  left: 925px;
+  top: 350px;
+}#note38,#note38ghost
+{
+  position: absolute;
+  left: 925px;
+  top: 400px;
+}#note39,#note39ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 450px;
+}
+#note40,#note40ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 450px;
+}
+#note41,#note41ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 400px;
+}#note41,#note41ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 350px;
+}#note42,#note42ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 350px;
+}
+#note43,#note43ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 450px;
+}#note44,#note44ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 550px;
+}#note45,#note45ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 650px;
+}#note46,#note46ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 750px;
+}#note47,#note47ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 750px;
+}
+#note48,#note48ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 750px;
+}
+#note49,#note49ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 750px;
+}#note50,#note50ghost
+{
+  position: absolute;
+  left: 350px;
+  top: 750px;
+}
+#note51,#note51ghost
+{
+  position: absolute;
+  left: 350px;
+  top: 650px;
+}
+#note52,#note52ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 550px;
+}#note53,#note53ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 450px;
+}#note54,#note54ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 350px;
+}
+#note55,#note55ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+#note56,#note56ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 150px;
+}#note57,#note57ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+#note58,#note58ghost
+{
+  position: absolute;
+  left: 350px;
+  top: 300px;
+}#note59,#note59ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+}
+#note60,#note60ghost
+{
+  position: absolute;
+  right: 250px;
+  top: 300px;
+}
+#note61,#note61ghost
+{
+  position: absolute;
+  right: 350px;
+  top: 300px;
+}#note62,#note62ghost
+{
+  position: absolute;
+  right: 450px;
+  top: 300px;
+}
+#note63,#note63ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 300px;
+}#note64,#note64ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 300px;
+}
+#note65,#note65ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 400px;
+}
+#note66,#note66ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 400px;
+}#note67,#note67ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 450px;
+}
+#note68,#note68ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 450px;
+}#note69,#note69ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 550px;
+}#note70,#note70ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 550px;
+}
+#note71,#note71ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 600px;
+}#note72,#note72ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 600px;
+}#note74,#note74ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 600px;
+}#note75,#note75ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 600px;
+}#note76,#note76ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 850px;
+}#note77,#note77ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 850px;
+}
+#note78,#note78ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 850px;
+}
+#note79,#note79ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 850px;
+}#note80,#note80ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 850px;
+}#note81,#note81ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 750px;
+}
+#note82,#note82ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 600px;
+}
+#note83,#note83ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 450px;
+}
+#note84,#note84ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 300px;
+}#note85,#note85ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 300px;
+}#note86,#note86ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+}#note87,#note87ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 400px;
+}#note88,#note88ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 400px;
+}#note89,#note89ghost
+{
+  position: absolute;
+  right: 650px;
+  top: 400px;
+}
+#note90,#note90ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 400px;
+}#note91,#note91ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}
+#note92,#note92ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 300px;
+}
+#note93,#note93ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note94,#note94ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 350px;
+}#note95,#note95ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 350px;
+}#note96,#note96ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note96,#note96ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 300px;
+}#note97,#note97ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 350px;
+}#note98,#note98ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 300px;
+}#note99,#note99ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 300px;
+}
+#note100,#note100ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note101,#note101ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 450px;
+}#note102,#note102ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 450px;
+}
+#note103,#note103ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 250px;
+}#note104,#note104ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}#note105,#note105ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 400px;
+}
+#note106,#note106ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 450px;
+}#note107,#note107ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 450px;
+}
+#note108,#note108ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 350px;
+}#note109,#note109ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note110,#note110ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note111,#note111ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}#note112,#note112ghost
+{
+  position: absolute;
+  right: 750px;
+  top: 250px;
+}#note113,#note113ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 250px;
+}#note114,#note114ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 350px;
+}#note115,#note115ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 450px;
+}#note116,#note116ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 550px;
+}#note117,#note117ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 650px;
+}#note118,#note118ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 750px;
+}#note119,#note119ghost
+{
+  position: absolute;
+  left: 1050px;
+  top: 850px;
+}#note120,#note120ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 850px;
+}#note121,#note121ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 850px;
+}#note122,#note122ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 850px;
+}#note123,#note123ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 750px;
+}
+#note124,#note124ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 750px;
+}#note125,#note125ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 750px;
+}#note126,#note126ghost
+{
+  position: absolute;
+  left: 350px;
+  top: 850px;
+}#note127,#note127ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 850px;
+}#note128,#note128ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 750px;
+}#note129,#note129ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 650px;
+}#note130,#note130ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 550px;
+}#note131,#note131ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 450px;
+}#note132,#note132ghost
+{
+  position: absolute;
+  left: 250px;
+  top: 350px;
+}#note133,#note133ghost
+{
+  position: absolute;
+  left: 450px;
+  top: 350px;
+}#note134,#note134ghost
+{
+  position: absolute;
+  left: 550px;
+  top: 350px;
+}#note135,#note135ghost
+{
+  position: absolute;
+  left: 650px;
+  top: 350px;
+}#note136,#note136ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 350px;
+}#note137,#note137ghost
+{
+  position: absolute;
+  left: 750px;
+  top: 450px;
+}#note138,#note138ghost
+{
+  position: absolute;
+  left: 850px;
+  top: 450px;
+}#note139,#note139ghost
+{
+  position: absolute;
+  left: 950px;
+  top: 550px;
+}#note140,#note140ghost
+{
+  position: absolute;
+  right: 950px;
+  top: 550px;
+}#note141,#note141ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 550px;
+}#note142,#note142ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 550px;
+}#note143,#note143ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 550px;
+}
+#note144,#note144ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 650px;
+}
+#note145,#note145ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 750px;
+}#note146,#note146ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 650px;
+}#note147,#note147ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 550px;
+}#note148,#note148ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 550px;
+}#note149,#note149ghost
+{
+  position: absolute;
+  left: 900px;
+  top: 450px;
+}#note150,#note150ghost
+{
+  position: absolute;
+  left: 1000px;
+  top: 450px;
+}#note151,#note151ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 450px;
+}#note152,#note152ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 550px;
+}#note153,#note153ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 650px;
+}#note154,#note154ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 750px;
+}#note155,#note155ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 850px;
+}#note156,#note156ghost
+{
+  position: absolute;
+  left: 1110px;
+  top: 850px;
+}
+#note157,#note157ghost
+{
+  position: absolute;
+  left: 1000px;
+  top: 850px;
+}#note158,#note158ghost
+{
+  position: absolute;
+  left: 900px;
+  top: 850px;
+}#note159,#note159ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 850px;
+}
+#note160,#note160ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 850px;
+}#note161,#note161ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 850px;
+}#note162,#note162ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 850px;
+}#note163,#note163ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 850px;
+}#note164,#note164ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 850px;
+}
+#note165,#note165ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 650px;
+}#note166,#note166ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 650px;
+}#note167,#note167ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 650px;
+}#note168,#note168ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 650px;
+}#note169,#note169ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 650px;
+}#note170,#note170ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 750px;
+}#note171,#note171ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 750px;
+}#note172,#note172ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 750px;
+}#note173,#note173ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 750px;
+}
+#note174,#note174ghost
+{
+  position: absolute;
+  left: 200px;
+  top: 750px;
+}
+#note175,#note175ghost
+{
+  position: absolute;
+  left: 100px;
+  top: 650px;
+}
+#note176,#note176ghost
+{
+  position: absolute;
+  left: 100px;
+  top: 550px;
+}
+#note177,#note177ghost
+{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+}#note178,#note178ghost
+{
+  position: absolute;
+  left: 100px;
+  top: 350px;
+}#note179,#note179ghost
+{
+  position: absolute;
+  left: 100px;
+  top: 250px;
+}
+#note180,#note180ghost
+{
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}#note181,#note181ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}#note182,#note182ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 150px;
+}#note183,#note183ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}#note184,#note184ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 350px;
+}#note185,#note185ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 350px;
+}#note186,#note186ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 350px;
+}#note187,#note187ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 450px;
+}#note188,#note188ghost
+{
+  position: absolute;
+  left: 900px;
+  top: 450px;
+}#note189,#note189ghost
+{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+}#note190,#note190ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}#note191,#note191ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note192,#note192ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note193,#note193ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 750px;
+}#note194,#note194ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 750px;
+}#note195,#note195ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 750px;
+}#note196,#note196ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 750px;
+}#note197,#note197ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 750px;
+}#note198,#note198ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 450px;
+}#note199,#note199ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 450px;
+}#note200,#note200ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 350px;
+}#note201,#note201ghost
+{
+  position: absolute;
+  left: 500px;
+  top: 350px;
+}#note202,#note202ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 350px;
+}#note203,#note203ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 250px;
+}#note204,#note204ghost
+{
+  position: absolute;
+  left: 600px;
+  top: 250px;
+}#note205,#note205ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note206,#note206ghost
+{
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}#note207,#note207ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 150px;
+}#note208,#note208ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 150px;
+}#note209,#note209ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note210,#note210ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}#note211,#note211ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 150px;
+}#note212,#note212ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 150px;
+}#note213,#note213ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 350px;
+}#note214,#note214ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 350px;
+}#note215,#note215ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note216,#note216ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}#note217,#note217ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 450px;
+}#note218,#note218ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 450px;
+}#note219,#note219ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 550px;
+}#note220,#note220ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 550px;
+}#note221,#note221ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note222,#note222ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}#note223,#note223ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 150px;
+}#note224,#note224ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 450px;
+}#note225,#note225ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 550px;
+}#note226,#note226ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 550px;
+}#note227,#note227ghost
+{
+  position: absolute;
+  right: 300px;
+  top: 250px;
+}#note228,#note228ghost
+{
+  position: absolute;
+  left: 300px;
+  top: 250px;
+}#note229,#note229ghost
+{
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}#note230,#note230ghost
+{
+  position: absolute;
+  right: 400px;
+  top: 250px;
+}#note231,#note231ghost
+{
+  position: absolute;
+  right: 500px;
+  top: 250px;
+}#note232,#note232ghost
+{
+  position: absolute;
+  right: 600px;
+  top: 250px;
+}#note233,#note233ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}#note234,#note234ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}#note235,#note235ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 350px;
+}#note236,#note236ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 350px;
+}#note237,#note237ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 350px;
+}#note238,#note238ghost
+{
+  position: absolute;
+  left: 700px;
+  top: 650px;
+}#note239,#note239ghost
+{
+  position: absolute;
+  right: 700px;
+  top: 650px;
+}
+
+
+#lightning {
+  width: 50%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  display: none;
+  position: absolute;
+  left: 27%;
+  top: 1%;
+}
+
+#lightning2 {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 2%;
+}
+
+#scorehtml {
+  display: none;
+
+  font-size: 30px;
+  background-color: black;
+  color: white;
+
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: left;
+}
+#health {
+  display: none;
+}
+#healthBar{
+  top: 10px;
+  width: 400px;
+  height: 10px;
+  padding: 5px;
+  background: #ddd;
+  position: absolute;
+  right: 50px;
+  display: none;
+}
+  #bar{
+    background: red;
+    width: 400px;
+    height: 10px;
+    position: relative;}
