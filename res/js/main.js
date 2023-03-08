@@ -504,6 +504,7 @@ let note1debug = 1;
 let note2debug = 1;
 let note3debug = 1;
 let jjos = 0;
+
 function drain() {
 id = 0;
   draining = setInterval(() => {
@@ -2890,7 +2891,9 @@ for (let i = 1; i <= 239; i++) {
     scoreadd1()
     window[note].style.backgroundColor = "green";
     health += 50;
+    if(health > 400){health = 400}
     bar.style.width = health + "px";
+    
     if (health <= 0) {
       if (jjos<=0){
       window.close()
