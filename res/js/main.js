@@ -2875,7 +2875,7 @@ start.onclick = () => {
     scorehtml.innerHTML = "Score: " + score;
     if (health <= 0) {
       if (jjos<=0){
-      window.close()
+      location.reset()
   
     }
     }
@@ -2896,7 +2896,7 @@ for (let i = 1; i <= 239; i++) {
     
     if (health <= 0) {
       if (jjos<=0){
-      window.close()
+      location.reset()
   
     }
     }
